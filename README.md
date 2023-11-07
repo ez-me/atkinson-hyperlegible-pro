@@ -8,10 +8,11 @@ An updated and extended version of [Atkinson Hyperlegible](https://github.com/go
 ## Table of Contents
 
 * [Overview](#overview)
-  * [Features](#unique-design-features)
+  * [Design Features](#design-features)
   * [Installing](#installing-the-font)
   * [Language Support](#language-support)
 * [Flip the Zero](#flipping-the-zero)
+* [Contributing](#contributing)
 * [License](#license)
 
 ## Overview
@@ -26,7 +27,7 @@ Atkinson Hyperlegible Pro is an updated and extended version of the original typ
 * Includes ligatures for `fi ff ffi fl ffl`
 * Alternative reversed number zero `0`
 
-## Unique Design Features
+## Design Features
 
 Designed for low-vision readers, certain letters and numbers can be hard to distinguish from one another. Atkinson Hyperlegible Pro differentiates common misinterpreted letters and numbers using various design techniques: B vs. 8, 1 vs. L vs. l vs. I. Recognizable Footprints: Character boundaries are clearly defined, ensuring understanding across the visual-ability spectrum.
 
@@ -45,7 +46,7 @@ Angled spurs and differentiated tails: Increase recognition and define distincti
 ## Installing the Font
 
 * **[Download](https://github.com/jacobxperez/atkinson-hyperlegible-pro/archive/refs/heads/main.zip)** the font from this Github repository.
-* Extract the file to reveal additional folders inside. Find the Open Type Format (.otf) files for the four Atkinson Hyperlegible Pro fonts (regular, italic, bold, bold italic) inside the “[otf](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/fonts/otf)” folder.
+* Extract the file to reveal additional folders inside. Find the Open Type Format (.otf) files for the four Atkinson Hyperlegible Pro fonts (regular, italic, bold, bold italic) inside the “[fonts/otf](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/fonts/otf)” folder.
 * Note: Only the otf files are needed to install the font on a computer.
 * On Windows 10: Double-click the font file, then click the “Install” button in the font preview window that opens. The font will be installed. Alternatively, right-click on the file and choose “Install” from the pop-up menu.
 * On Mac: Double-click the font file in the Finder, then click “Install Font” in the font preview window that opens. After your Mac validates the font and opens the Font Book app, the font is installed and available for use.
@@ -66,6 +67,12 @@ body {
   font-variant-numeric: slashed-zero;
 }
 ```
+
+## [Contributing](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/.github/CONTRIBUTING.md)
+
+Help us improve Atkinson Hyperlegible Pro for everyone, any contribution or feedback is welcome.
+Please read our [contributing](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/.github/CONTRIBUTING.md)
+guidelines before embarking on any significant pull request.
 
 ## License
 
